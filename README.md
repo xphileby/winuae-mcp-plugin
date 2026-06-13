@@ -51,10 +51,8 @@ binding.
 
 WinUAE is GPL-licensed; this distribution includes a modified build
 ("mcpbridge"). Complete corresponding source for the included binary:
-https://github.com/xphileby/WinUAE-mcpbridge (fork of
-https://github.com/tonioni/WinUAE, base tag 6030). If the source repo is not
-accessible to you, request access via an issue here and a source archive will
-be provided.
+https://github.com/xphileby/WinUAE-mcpbridge (public; fork of
+https://github.com/tonioni/WinUAE, base tag 6030, branch `mcpbridge-6030`).
 
 Plugin scaffolding (relay, skill, manifests): GPL-2.0-or-later, same as the
 emulator.
