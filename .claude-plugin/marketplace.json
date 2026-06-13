@@ -1,0 +1,14 @@
+{
+  "name": "winuae-mcp",
+  "owner": {
+    "name": "xphileby",
+    "url": "https://github.com/xphileby"
+  },
+  "plugins": [
+    {
+      "name": "winuae-mcp",
+      "source": "./",
+      "description": "WinUAE Amiga emulator with embedded MCP server: full input synthesis, screenshots, debugging, serial I/O and machine control from Claude."
+    }
+  ]
+}

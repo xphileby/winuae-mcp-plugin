@@ -1,0 +1,18 @@
+{
+  "name": "winuae-mcp",
+  "version": "1.0.0",
+  "description": "Drive a real Amiga emulator (WinUAE) from Claude: synthesized mouse/keyboard, screenshots, memory and CPU inspection, breakpoints, serial I/O, disk/state management. Bundles the emulator binary, the MCP relay, and a usage skill.",
+  "author": {
+    "name": "xphileby",
+    "url": "https://github.com/xphileby"
+  },
+  "homepage": "https://github.com/xphileby/winuae-mcp-plugin",
+  "license": "GPL-2.0-or-later",
+  "keywords": ["amiga", "emulator", "winuae", "retro", "mcp", "automation"],
+  "mcpServers": {
+    "winuae": {
+      "command": "py",
+      "args": ["-3", "${CLAUDE_PLUGIN_ROOT}/server/mcp-winuae-bridge.py"]
+    }
+  }
+}
