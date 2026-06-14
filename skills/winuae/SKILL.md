@@ -54,6 +54,10 @@ prompt the user has to accept.
   Workbench's Execute Command dialog — the fastest way to run a one-liner).
 - Open a Shell: `key_press RAmiga+E`, `type_text "newshell"`, `key_press
   Return`. Then type commands into the Shell with `type_text`.
+- **Full key reference** (every named key, the numeric keypad, modifiers, and
+  the raw `"0xNN"` form): see [keycodes.md](keycodes.md). Keys accept a
+  symbolic name (e.g. `"f5"`, `"kp7"`, `"help"`, `"left"`) or a raw Amiga
+  rawkey code as a hex string.
 
 ## Gaming
 
